@@ -2,7 +2,7 @@ const HTML_ENCABEZADO = `
     <header>
         <nav id="navbar-principal" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" aria-label="Navegación principal">
             <div class="container">
-                <a class="navbar-brand" href="index.html" title="Ir a la página principal">
+                <a class="navbar-brand" href="../inicio/index.html" title="Ir a la página principal">
                     Mundo Foca
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Mostrar/ocultar navegación">
@@ -10,9 +10,9 @@ const HTML_ENCABEZADO = `
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../inicio/index.html">Inicio</a></li>
                         <li class="nav-item"><a class="nav-link" href="../nosotros/nosotros.html">Nosotros</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../galeria/galeria.html">Galería</a></li>
+                        <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
                         <li class="nav-item"><a class="nav-link" href="../blog/blog.html">Blog</a></li>
                         <li class="nav-item"><a class="nav-link" href="../contacto/contacto.html">Contacto</a></li>
                     </ul>
